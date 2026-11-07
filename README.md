@@ -1,4 +1,4 @@
-# facture-ar
+# Facturear
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,149 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-facture-ar is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://facture.ar/
+Facturear provides electronic invoicing (Facturación electrónica) powered by ARCA, offering web, Excel, WhatsApp, Tiendanube, MercadoLibre, Mercado Pago, Shopify, bank integrations, and AI agents. Users can create invoices with CAE, choose free or paid plans, and access a REST API and MCP sandbox for automation.
+
+**Areas:** Billing · Invoicing · API · Argentina · SaaS
+
+## Facturear on APIs.io
+
+Everything profiled for Facturear is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/facture-ar/](https://apis.io/providers/facture-ar/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Facturear Borradores API](https://apis.io/apis/facture-ar/facture-ar-borradores-api/) — Facturas propuestas desde documentos, planillas o datos, para revisar y emitir
+- [Facturear CUITs API](https://apis.io/apis/facture-ar/facture-ar-cuits-api/) — CUITs emisores, sus defaults, puntos de venta y diseño
+- [Facturear Facturas API](https://apis.io/apis/facture-ar/facture-ar-facturas-api/) — Emitir, listar y consultar facturas, su PDF y XML, y enviarlas por email
+- [Facturear Importar desde ARCA API](https://apis.io/apis/facture-ar/facture-ar-importar-desde-arca-api/) — Traer a Facturear los comprobantes que ARCA ya autorizó
+- [Facturear Lotes API](https://apis.io/apis/facture-ar/facture-ar-lotes-api/) — El resultado de cada emisión: toda factura se procesa en un lote
+- [Facturear Plantillas API](https://apis.io/apis/facture-ar/facture-ar-plantillas-api/) — Cómo se lee y se factura cada tipo de documento, y facturas recurrentes
+- [Facturear Reportes API](https://apis.io/apis/facture-ar/facture-ar-reportes-api/) — Libro IVA Ventas
+- [Facturear Utilidades API](https://apis.io/apis/facture-ar/facture-ar-utilidades-api/) — Parámetros de ARCA
+- [Facturear Webhooks API](https://apis.io/apis/facture-ar/facture-ar-webhooks-api/) — Notificaciones a tu sistema cuando pasa algo con tus facturas
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Facture Ar Webhooks](https://apis.io/asyncapis/facture-ar/facture-ar-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Facture Ar Agentic Access](https://apis.io/agentic-access/facture-ar/facture-ar-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Cuit](https://apis.io/schemas/facture-ar/facture-ar-cuit/)
+- [Draft](https://apis.io/schemas/facture-ar/facture-ar-draft/)
+- [Invoice](https://apis.io/schemas/facture-ar/facture-ar-invoice/)
+- [InvoiceRequest](https://apis.io/schemas/facture-ar/facture-ar-invoice-request/)
+- [Template](https://apis.io/schemas/facture-ar/facture-ar-template/)
+- [TemplateInput](https://apis.io/schemas/facture-ar/facture-ar-template-input/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Facture Ar Context](https://apis.io/jsonld/facture-ar/facture-ar-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Facture Ar Openapi Overlay](https://apis.io/overlays/facture-ar/facture-ar-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Facturear API Rules](https://apis.io/rules/facture-ar/facture-ar-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Facture Ar Authentication](https://apis.io/security/facture-ar/facture-ar-authentication/)
+- [Facture Ar Domain Security](https://apis.io/security/facture-ar/facture-ar-domain-security/)
+- [Facture Ar Vulnerability Disclosure](https://apis.io/security/facture-ar/facture-ar-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Facture Ar Plans Pricing](https://apis.io/plans/facture-ar/facture-ar-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://facture.ar/)
+- [Documentation](https://www.facture.ar/developers)
+- [Getting started](https://docs.facture.ar/es/getting-started/index)
+- [API reference](https://docs.facture.ar/es/api-reference)
+- [Pricing](https://www.facture.ar/precios)
+- [Security](https://www.facture.ar/seguridad)
+- [Privacy policy](https://www.facture.ar/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 59.4** — strong · rubric 0.27.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 68.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 53.2 |
+
+**Agent readiness 66.8** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 26.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/facture-ar/](https://apis.io/providers/facture-ar/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Facturear: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/facture-ar/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
